@@ -1,42 +1,26 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <style>
-body {
-    background-image:url("bg15.jpg");
-    background-attachment: fixed; 
-    background-size: cover;
-    height:100%;
-
-   }
-h1
+body
 {
-    font-size:30px;
-    position: absolute;
-    left: 0;
-    top: 20%;
-    width: 100%;
-    text-align:center;
-    font-family:nevis;
-}
-pre {
-    font-size:25px;
-    text-align:center;
-    top: 30%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    font-family:nevis;
+background-image: url("bg1.jpeg"),url("bg2.png");
+background-position: top right,bottom left;
+background-repeat: no-repeat,no-repeat;
+background-attachment: scroll,fixed;
+background-size:700px,200px;
 }
 .dropbtn {
-    background-color: black;
-    color: white;
-    padding: 25px;
-    font-size: 25px;
-    border-style: solid;
+    background-color: white;
+    color: black;
+    margin-left: 25px;
+    margin-top:15px;
+    font-size: 20px;
+    border-style: none;
     border-color: white;
     cursor: pointer;
-    font-family:nevis;
+    font-family:Roboto;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -48,23 +32,30 @@ pre {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
+    color: black;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-family:Roboto;
+    cursor: pointer;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 25px;
-    font-size: 25px;
+    font-family:Roboto;
+    padding: 15px;
+    font-size: 16px;
     text-decoration: none;
     display: block;
 }
+img {
+float:left;
+}
 
-/* Change color of dropdown links on hover */
+/* Change color of dropdown links on hover*/
 .dropdown-content a:hover {background-color: dark-gray}
 
 /* Show the dropdown menu on hover */
@@ -74,39 +65,8 @@ pre {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: gray;
-}
-div.resume {
-    font-family:Raleway,sans-serif;
-    width: 320px;
-    padding: 4px;
-    border-style: solid;
-    border-color: white;
-    font-size:25px;
-    text-align:center;
-    top: 45%;
-    width: 20%;
-    position: absolute;
-    left: 300px;
-    background-color: black;
-    color:white;
-    font-family:nevis;
-}
-div.w3 {
-    font-family:Raleway,sans-serif;
-    width: 320px;
-    padding: 4px;
-    border-style: solid;
-    border-color: white;
-    font-size:25px;
-    text-align:center;
-    top: 45%;
-    width: 20%;
-    position: absolute;
-    left: 600px;
-    background-color: black;
-    color:white;
-    font-family:nevis;
+    background-color: white;
+    border-bottom:4px solid blue;
 }
 a:link {
     color: gray;
@@ -114,7 +74,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: red;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -127,24 +87,32 @@ a:active {
     color: yellow;
     background-color:transparent;
     text-decoration: underline;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family:Roboto;
+    position: absolute;
+    background-color: white;
+    position: relative;
+}
+.right {
+    position: absolute;
+    right: 300px;
+    top:18px;
+    padding: 10px;
+    font-family:Roboto;
+    background-color:rgba(255,255,255,0.5);
+    padding: 4px;
+    color:black;
+    font-size: 20px;
+}
 </style>
 </head>
-<body>
-<h1>Best Life hacks,music,DIYs and more just a click away!</h1>
-<pre><b>Hi,I am Puja Chaudhury and this is my first css page.
-     This page will help you browse through a variety of fun and useful videos.</b></pre>
-<div class="resume">Go to my resume page <a href="http://khaleesi24.github.io/">Resume</a></div>
-<div class="w3">Go to w3schools.com <a href="https://www.w3schools.com">w3schools</a></div>
-<div class="dropdown">
-  <button class="dropbtn">Life hacks</button>
-  <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=dYXaxeJBj5k">Gift Wrapping</a>
-    <a href="https://www.youtube.com/watch?v=yBSQFws2n04">Sleeping</a>
-    <a href="https://www.youtube.com/watch?v=qRBn23LHDdc">Summer</a>
-    <a href="https://www.youtube.com/watch?v=hMpSmIRJfL4">Time saving</a>
-    <a href="https://www.youtube.com/watch?v=JNDAgaflfEc">Survival hacks</a>
-  </div>
-</div>
+<a href="https://www.w3schools.com/html/"><img src="RP.jpeg" alt="Razorpay" width=:100" height="50" ></a>
 <div class="dropdown">
   <button class="dropbtn">Travel Vlogs</button>
   <div class="dropdown-content">
@@ -156,34 +124,38 @@ a:active {
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">DIYs</button>
+  <button class="dropbtn"><b>Develop</b></button>
   <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=_5-La1xFpS4">School supplies</a>
-    <a href="https://www.youtube.com/watch?v=F4Bd0RYIxmg">Hair</a>
-    <a href="https://www.youtube.com/watch?v=r1l3cYVRlnc">Makeup</a>
-<a href="https://www.youtube.com/watch?v=bMYNTcLmhUA">Stress relievers</a>
-<a href="https://www.youtube.com/watch?v=g-XIdoVr0SI">Room decorations</a>
+    <a href="https://www.youtube.com/watch?v=_5-La1xFpS4"><pre style="font-family:roboto;"><b>Docs</b>
+get started with SDKs here</pre></a>
+    <a href="https://www.youtube.com/watch?v=F4Bd0RYIxmg"><pre style="font-family:roboto;"><b>Integrations</b>
+30+ platforms that Razorpay support</pre></a>
+    <a href="https://www.youtube.com/watch?v=r1l3cYVRlnc"><pre style="font-family:roboto;"><b>API references</b></pre></a>
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">Stand-up Comedy</button>
+  <button class="dropbtn"><b>Resources</b></button>
   <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=Fxl2U5DSz9w">Lewis CK</a>
-    <a href="https://www.youtube.com/watch?v=uM0x0yfIJ8E">Owen Benjamin</a>
-    <a href="https://www.youtube.com/watch?v=Fo_zzbIXNqQ">Kautuk Srivastava</a>
-    <a href="https://www.youtube.com/watch?v=WmIS_icNcLk">Kevin Hart</a>
-    <a href="https://www.youtube.com/watch?v=jje0noqhxPk">Ricky Gervais</a>
+    <a href="https://www.youtube.com/watch?v=Fxl2U5DSz9w"><b>Blog</b></a>
+    <a href="https://www.youtube.com/watch?v=uM0x0yfIJ8E"><b>Events</b></a>
+    <a href="https://www.youtube.com/watch?v=Fo_zzbIXNqQ"><b>FAQs</b></a>
+    <a href="https://www.youtube.com/watch?v=WmIS_icNcLk"><b>Help center</b></a>
+    <a href="https://www.youtube.com/watch?v=jje0noqhxPk"><b>Chargeback guide</b></a>
+    <a href="https://www.youtube.com/watch?v=jje0noqhxPk"><b>Settlement guide</b></a>
   </div>
 </div>
-<div class="dropdown">
-  <button class="dropbtn">Trending Music</button>
-  <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=kOkQ4T5WO9E&list=PLP9GgDwtdPPQEejYdDz6EJhdEZbTuO5Lz">This is what you came for</a>
-    <a href="https://www.youtube.com/watch?v=HCjNJDNzw8Y&list=PLP9GgDwtdPPQEejYdDz6EJhdEZbTuO5Lz&index=1">Havana</a>
-    <a href="https://www.youtube.com/watch?v=xpVfcZ0ZcFM">God's plan</a>
-<a href="https://www.youtube.com/watch?v=VYOjWnS4cMY">This is America</a>
-<a href="https://www.youtube.com/watch?v=M4ZoCHID9GI&list=PLw-VjHDlEOgvWPpRBs9FRGgJcKpDimTqf&index=1">Call out my name</a>
+<div class="dropdown" style="left: 800px;">
+  <img src="flg.png" alt="India" width="50" height="40">
+  <div class="dropdown-content"style="right:0;">Razorpay is currently available only for Indian buisness</div>
   </div>
+<div class="right" >
+<a href="#"><b>We're hiring!</b></a>
+</div>
+<div class="right" style="right:430px;">
+<a href="#"><b>Login</b></a>
+</div>
+<div class="right"style="right:500px;" >
+<a href="#"><b>Signup</b></a>
 </div>
 </body>
 </html>
