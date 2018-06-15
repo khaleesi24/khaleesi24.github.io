@@ -1,161 +1,161 @@
-<!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-<style>
-body
-{
-background-image: url("bg1.jpeg"),url("bg2.png");
-background-position: top right,bottom left;
-background-repeat: no-repeat,no-repeat;
-background-attachment: scroll,fixed;
-background-size:700px,200px;
-}
-.dropbtn {
-    background-color: white;
-    color: black;
-    margin-left: 25px;
-    margin-top:15px;
-    font-size: 20px;
-    border-style: none;
-    border-color: white;
-    cursor: pointer;
-    font-family:Roboto;
-}
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+    <!-- This is the css file we attach to get materialize working-->
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    color: black;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-family:Roboto;
-    cursor: pointer;
-}
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    font-family:Roboto;
-    padding: 15px;
-    font-size: 16px;
-    text-decoration: none;
-    display: block;
-}
-img {
-float:left;
-}
+    <link rel="stylesheet" href="css/index.css"/>
 
-/* Change color of dropdown links on hover*/
-.dropdown-content a:hover {background-color: dark-gray}
+    <body>
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+        <!-- Here I declare a class navbar and put it in the container becasue as per the design the website has padding on left and right container is pre definded class in the materialize tha gives gutter space-->
+        <div class="container">
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: white;
-    border-bottom:4px solid blue;
-}
-a:link {
-    color: gray;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: gray;
-    background-color:transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: yellow;
-    background-color:transparent;
-    text-decoration: underline;
-}
-.desc {
-    padding: 15px;
-    text-align: center;
-    display: block;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-family:Roboto;
-    position: absolute;
-    background-color: white;
-    position: relative;
-}
-.right {
-    position: absolute;
-    right: 300px;
-    top:18px;
-    padding: 10px;
-    font-family:Roboto;
-    background-color:rgba(255,255,255,0.5);
-    padding: 4px;
-    color:black;
-    font-size: 20px;
-}
-</style>
-</head>
-<a href="https://www.w3schools.com/html/"><img src="RP.jpeg" alt="Razorpay" width=:100" height="50" ></a>
-<div class="dropdown">
-  <button class="dropbtn">Travel Vlogs</button>
-  <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=i9E_Blai8vk">Bali</a>
-    <a href="https://www.youtube.com/watch?v=hXVR4l56vZ0">Venice</a>
-    <a href="https://www.youtube.com/watch?v=hQa4GouJYA4">Vietnam</a>
-<a href="https://www.youtube.com/watch?v=QxP1p3EzOks">Switzerland</a>
-<a href="https://www.youtube.com/watch?v=ltHTDqVTqN0">Thailand</a>
-  </div>
-</div>
-<div class="dropdown">
-  <button class="dropbtn"><b>Develop</b></button>
-  <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=_5-La1xFpS4"><pre style="font-family:roboto;"><b>Docs</b>
-get started with SDKs here</pre></a>
-    <a href="https://www.youtube.com/watch?v=F4Bd0RYIxmg"><pre style="font-family:roboto;"><b>Integrations</b>
-30+ platforms that Razorpay support</pre></a>
-    <a href="https://www.youtube.com/watch?v=r1l3cYVRlnc"><pre style="font-family:roboto;"><b>API references</b></pre></a>
-  </div>
-</div>
-<div class="dropdown">
-  <button class="dropbtn"><b>Resources</b></button>
-  <div class="dropdown-content">
-    <a href="https://www.youtube.com/watch?v=Fxl2U5DSz9w"><b>Blog</b></a>
-    <a href="https://www.youtube.com/watch?v=uM0x0yfIJ8E"><b>Events</b></a>
-    <a href="https://www.youtube.com/watch?v=Fo_zzbIXNqQ"><b>FAQs</b></a>
-    <a href="https://www.youtube.com/watch?v=WmIS_icNcLk"><b>Help center</b></a>
-    <a href="https://www.youtube.com/watch?v=jje0noqhxPk"><b>Chargeback guide</b></a>
-    <a href="https://www.youtube.com/watch?v=jje0noqhxPk"><b>Settlement guide</b></a>
-  </div>
-</div>
-<div class="dropdown" style="left: 800px;">
-  <img src="flg.png" alt="India" width="50" height="40">
-  <div class="dropdown-content"style="right:0;">Razorpay is currently available only for Indian buisness</div>
-  </div>
-<div class="right" >
-<a href="#"><b>We're hiring!</b></a>
-</div>
-<div class="right" style="right:430px;">
-<a href="#"><b>Login</b></a>
-</div>
-<div class="right"style="right:500px;" >
-<a href="#"><b>Signup</b></a>
-</div>
-</body>
+            <!-- Here we define a row which a defined class in materialize what it does is it divides the whole width in 12 columns and then we can set how each element scales as per screen size-->
+            <!-- Now see that each row has elements like col s, col m, col l, col xl
+                These show s - small screens
+                           m - medium screens
+                           l - large screens
+                           xl - extra large screens
+                These have number in front of them
+                Now each have a number infront of them these set the size of each box that means that if it is m3 xl2 it means that in medium screens that box covers 3 out of the 12 columns and as soon as it hits xtra large screen sizes then the box size is 2 out of the 12 columns-->
+
+            <!-- I also have added classes like only-desktop and only-mobile which will help me completely remove any elements as per my choice-->
+
+            <div class="navbar row align-center">
+
+                <div class="col s3 m2 l2">
+
+                    <img class="razorpay-logo" src="images/razorpay.jpeg"/>
+
+                </div>
+
+                <div class="col l1 only-desktop">
+
+                    Products
+
+                </div>
+
+                <div class="col l1 only-desktop">
+
+                    Develop
+
+                </div>
+
+                <div class="col l1 only-desktop">
+
+                    Resources
+
+                </div>
+
+                <div class="col s2 m2 l1"></div>
+
+                <div class="col s1 m2 l1"></div>
+
+                <div class="col s1 m2 l1"></div>
+
+                <div class="col s4 m3 l2 align-right">
+
+                    We're hiring!
+
+                </div>
+
+                <div class="col s1 m2 l1 only-desktop align-right">
+
+                    Log In
+
+                </div>
+
+                <div class="col l1 only-desktop align-right">
+
+                    <div class="button-one">
+
+                        Submit
+
+                    </div>
+
+                </div>
+
+                <div class="col s1 m1 only-mobile">
+
+                    <img class="menu-icon"src="images/menu.png"/>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="main-text-holder">
+
+                <div class="row">
+
+                    <div class="col s4 m2 only-mobile"></div>
+
+                    <div class="col s8 m10 l12 heading">
+
+                        The Future of Payment is Here
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col s4 m2 only-mobile"></div>
+
+                    <div class="col s8 m10 l12 heading">
+
+                        <div class="line"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col s4 m2 only-mobile"></div>
+
+                    <div class="col s8 m10 l12 main-text">
+
+                        The easiest way to accept, process and disburse digital payments for businesses in India. Sign up now to simplify your business.
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col s1 m2 only-mobile"></div>
+
+                    <div class="col s5 m6 l9">
+
+                        <input  class="text-signup" placeholder="Your email address">
+
+                    </div>
+
+                    <div class="col s3 m4 l3">
+
+                        <div class="submit-one">
+
+                            Sign Up!
+
+                        </div>
+
+                    </div>
+
+                    <div class="col s1 m2 l7 xl5"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
 </html>
