@@ -6,8 +6,8 @@ body{
     background-repeat: no-repeat,no-repeat;
     background-attachment: scroll,fixed;
     background-size:700px,200px;
-    -moz-background-size:contain;
-    -o-background-size:contain;
+    -moz-background-size:cover;
+    -o-background-size:cover;
 }
 .container{
     width: 100%;
