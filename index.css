@@ -5,9 +5,9 @@ body{
     background-position: top right,bottom left;
     background-repeat: no-repeat,no-repeat;
     background-attachment: scroll,fixed;
-    background-size:700px,200px;
     -moz-background-size:cover;
     -o-background-size:cover;
+     background-size:cover.cover;
 }
 pre{
   font-family: Roboto;
