@@ -1,0 +1,162 @@
+<html>
+
+    <!-- This is the css file we attach to get materialize working-->
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="css/index.css"/>
+
+    <body>
+
+        <!-- Here I declare a class navbar and put it in the container becasue as per the design the website has padding on left and right container is pre definded class in the materialize tha gives gutter space-->
+        <div class="container">
+
+            <!-- Here we define a row which a defined class in materialize what it does is it divides the whole width in 12 columns and then we can set how each element scales as per screen size-->
+            <!-- Now see that each row has elements like col s, col m, col l, col xl
+                These show s - small screens
+                           m - medium screens
+                           l - large screens
+                           xl - extra large screens
+                These have number in front of them
+
+                Now each have a number infront of them these set the size of each box that means that if it is m3 xl2 it means that in medium screens that box covers 3 out of the 12 columns and as soon as it hits xtra large screen sizes then the box size is 2 out of the 12 columns-->
+
+            <!-- I also have added classes like only-desktop and only-mobile which will help me completely remove any elements as per my choice-->
+
+            <div class="navbar row align-center">
+
+                <div class="col s3 m2 l2">
+
+                    <img class="razorpay-logo" src="images/razorpay.jpeg"/>
+
+                </div>
+
+                <div class="col l1 only-desktop">
+
+                    Products
+
+                </div>
+
+                <div class="col l1 only-desktop">
+
+                    Develop
+
+                </div>
+
+                <div class="col l1 only-desktop">
+
+                    Resources
+
+                </div>
+
+                <div class="col s2 m2 l1"></div>
+
+                <div class="col s1 m2 l1"></div>
+
+                <div class="col s1 m2 l1"></div>
+
+                <div class="col s4 m3 l2 align-right">
+
+                    We're hiring!
+
+                </div>
+
+                <div class="col s1 m2 l1 only-desktop align-right">
+
+                    Log In
+
+                </div>
+
+                <div class="col l1 only-desktop align-right">
+
+                    <div class="button-one">
+
+                        Submit
+
+                    </div>
+
+                </div>
+
+                <div class="col s1 m1 only-mobile">
+
+                    <img class="menu-icon"src="images/menu.png"/>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="main-text-holder">
+
+                <div class="row">
+
+                    <div class="col s4 m2 only-mobile"></div>
+
+                    <div class="col s8 m10 l12 heading">
+
+                        The Future of Payment is Here
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col s4 m2 only-mobile"></div>
+
+                    <div class="col s8 m10 l12 heading">
+
+                        <div class="line"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col s4 m2 only-mobile"></div>
+
+                    <div class="col s8 m10 l12 main-text">
+
+                        The easiest way to accept, process and disburse digital payments for businesses in India. Sign up now to simplify your business.
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col s1 m2 only-mobile"></div>
+
+                    <div class="col s5 m6 l9">
+
+                        <input  class="text-signup" placeholder="Your email address">
+
+                    </div>
+
+                    <div class="col s3 m4 l3">
+
+                        <div class="submit-one">
+
+                            Sign Up!
+
+                        </div>
+
+                    </div>
+
+                    <div class="col s1 m2 l7 xl5"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
