@@ -1,0 +1,30 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-image: url("bg1.jpeg"),url("bg2.png");
+    background-position: top right,bottom left;
+    background-repeat: no-repeat,no-repeat;
+    background-attachment: scroll,fixed;
+    background-size:700px,200px;
+}
+.container{
+    width: 80%;
+}
+
+.navbar{
+    padding-top: 25px;
+    height: 50px;
+    font-family: Roboto;
+}
+
+.razorpay-logo{
+    height: 10%;
+    width: auto;
+}
+pre{
+  font-family: Roboto;
+  font-size: 20px
+}
+h2{
+  font-family: Roboto;
+}
