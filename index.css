@@ -1,1 +1,97 @@
+/* Always use this padding and margin 0px because some browsers have an issue where the body has some default padding and margin*/
 
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    width: 80%;
+}
+
+.navbar{
+    padding-top: 25px;
+    height: 50px;
+}
+
+.razorpay-logo{
+    height: 100%;
+    width: auto;
+}
+
+.submit-one{
+    height: 44px;
+    width: 110px;
+    background:#fff;
+    color: #5f8fe9;
+    line-height: 44px;
+    text-align: center;
+}
+
+.align-right{
+    text-align:right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.menu-icon{
+    height: 100%;
+    width: auto;
+}
+
+.heading{
+    font-size:40px;
+    max-width: 320px;
+    text-align: left;
+}
+
+.main-text{
+    font-size:18px;
+    max-width: 420px;
+    text-align: left;
+}
+
+.line{
+    height: 4px;
+    width: 20px;
+    background:#5f8fe9;
+}
+
+.text-signup{
+    height: 44px;
+}
+
+.main-text-holder{
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform:translate(0%,-50%);
+}
+
+@media screen and (max-width: 992px) {
+
+    .only-desktop{
+      display: none;
+  }
+
+  .main-text{
+      font-size: 16px;
+  }
+
+  .heading{
+      font-size: 28px;
+  }
+
+  .container{
+      width:100%;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .only-mobile{
+      display: none;
+  }
