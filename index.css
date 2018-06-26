@@ -1,12 +1,12 @@
-body{
-    padding:0px;
-    margin:0px;
+/*body{
     background-image: url("bg1.jpeg"),url("bg2.png");
     background-position: top right,bottom left;
     background-repeat: no-repeat,no-repeat;
     background-attachment: scroll,fixed;
-    background-size:cover.cover;
+    background-size:cover,cover;
 }
+*/
+
 pre{
   font-family: Roboto;
   font-size: 20px
@@ -18,14 +18,22 @@ body{
     padding:0px;
     margin:0px;
 }
+h5{
+  text-align: center;
+}
 
 .container{
-    width: 80%;
+    width: 100%;
 }
 
 .navbar{
     padding-top: 25px;
     height: 50px;
+}
+.navbar1{
+    padding-top: 25px;
+    height: 50px;
+
 }
 
 .razorpay-logo{
@@ -75,6 +83,13 @@ body{
 
 .text-signup{
     height: 44px;
+    color: blue;
+}
+.text{
+  height:30px;
+  text-align: left;
+  font-family: roboto;
+  font-size: 15px;
 }
 
 .main-text-holder{
@@ -83,6 +98,13 @@ body{
     top: 50%;
     transform:translate(0%,-50%);
 }
+.heading1{
+    font-size:30px;
+    text-align:center;
+    font-family:Adam.CG Pro;
+    color:blue;
+}
+
 
 @media screen and (max-width: 992px) {
 
@@ -111,4 +133,3 @@ body{
   }
 
 }
-
