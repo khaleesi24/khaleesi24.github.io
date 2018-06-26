@@ -1,11 +1,10 @@
-/*body{
+body{
     background-image: url("bg1.jpeg"),url("bg2.png");
     background-position: top right,bottom left;
     background-repeat: no-repeat,no-repeat;
     background-attachment: scroll,fixed;
     background-size:cover,cover;
 }
-*/
 
 pre{
   font-family: Roboto;
