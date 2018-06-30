@@ -1,21 +1,37 @@
+@media screen and (min-width: 992px) {
 body{
-    background-image: url("bg1.jpeg"),url("bg2.png");
-    background-position: top right,bottom left;
-    background-repeat: no-repeat,no-repeat;
-    background-attachment: scroll,fixed;
-    background-size:cover,cover;
+    background-image: url("bg1.jpeg");
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:900px 900px;
+}
+}
+@media screen and (max-width: 992px) {
+body{
+    background-image: url("bg1.jpeg");
+    background-position: 75% 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:contain;
+}
 }
 
 pre{
   font-family: Roboto;
-  font-size: 20px
+  font-size: 20px;
+  color:#000066
 }
-h2{
-  font-family: Roboto;
+.headline{
+  font-family: "Verdana";
+  font-size: 38px;
 }
 body{
     padding:0px;
     margin:0px;
+}
+a:hover {
+    background-color: #000066;
 }
 h5{
   text-align: center;
@@ -34,12 +50,19 @@ h5{
     height: 50px;
 
 }
+.sign
+{
+  color:#000066;
+
+}
 
 .razorpay-logo{
     height: 100%;
     width: auto;
 }
-
+.pad{
+  padding: 2px;
+}
 .submit-one{
     height: 44px;
     width: 110px;
@@ -83,12 +106,15 @@ h5{
 .text-signup{
     height: 44px;
     color: blue;
+    border: 5px solid blue;
+    width:40px;
 }
 .text{
   height:30px;
   text-align: left;
   font-family: roboto;
-  font-size: 15px;
+  font-size: 14px;
+  color:black;
 }
 
 .main-text-holder{
