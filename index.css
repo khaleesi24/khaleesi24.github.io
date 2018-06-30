@@ -10,7 +10,7 @@ body{
 @media screen and (max-width: 992px) {
 body{
     background-image: url("bg1.jpeg");
-    background-position: 75% 25%;
+    background-position: 100% 25%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size:contain;
