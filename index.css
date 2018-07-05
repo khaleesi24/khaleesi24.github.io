@@ -3,16 +3,16 @@ body{
     background-image: url("bg1.jpeg"),url("737.jpg");
     background-position: 100% 10%, bottom;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: scroll,scroll;
     background-size:900px 900px,1400px 700px;
 }
 }
 @media screen and (max-width: 992px) {
 body{
     background-image: url("bg1.jpeg"),url("737.jpg");
-    background-position: 100% 25%,bottom;
+    background-position: 100% 10%,bottom;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: scroll,scroll;
     background-size:contain,1000px 2000px;
 }
 }
