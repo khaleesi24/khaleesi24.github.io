@@ -9,7 +9,7 @@ body{
 }
 @media screen and (max-width: 992px) {
 body{
-    background-image: url("bg1.jpeg"),url("737.jpg");
+    background-image: url("bg1.jpeg"),url("blue.jpg");
     background-position: 100% 10%,bottom;
     background-repeat: no-repeat;
     background-attachment: scroll;
