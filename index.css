@@ -12,7 +12,7 @@ body{
     background-image: url("bg1.jpeg"),url("737.jpg");
     background-position: 100% 10%,bottom;
     background-repeat: no-repeat;
-    background-attachment: scroll,scroll;
+    background-attachment: scroll;
     background-size:contain,1000px 2000px;
 }
 }
